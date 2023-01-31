@@ -1,0 +1,11 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-01-30 21:17 CST
+Nmap scan report for 10.10.159.9
+Host is up (0.21s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+| http-enum: 
+|   /login.php: Possible admin folder
+|_  /robots.txt: Robots file
+
+Nmap done: 1 IP address (1 host up) scanned in 20.60 seconds
